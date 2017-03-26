@@ -2232,8 +2232,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="D6" gate="G$1" x="154.94" y="50.8" rot="MR270"/>
 <instance part="D7" gate="G$1" x="132.08" y="43.18"/>
 <instance part="D8" gate="G$1" x="154.94" y="35.56" rot="MR270"/>
-<instance part="IC2" gate="P" x="81.28" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="84.455" y="54.61" size="1.778" layer="95" rot="R180"/>
+<instance part="IC2" gate="P" x="81.28" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.455" y="52.07" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
