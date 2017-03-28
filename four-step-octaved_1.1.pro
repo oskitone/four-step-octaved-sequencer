@@ -2,8 +2,8 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/Tommy/Documents/eagle/four-step-octaved/four-step-octaved_1.1.brd
 
-Start at      : 11:52:41 (3/28/17)
-End at        : 11:53:20 (3/28/17)
+Start at      : 11:57:23 (3/28/17)
+End at        : 11:58:02 (3/28/17)
 Elapsed time  : 00:00:37
 
 Signals       :    34   RoutingGrid: 4.5 mil  Layers: 2

@@ -3407,9 +3407,10 @@ part number 2062-2P from STA</description>
 <wire x1="25.4" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="88.9" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 <junction x="25.4" y="88.9"/>
-<wire x1="25.4" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <junction x="25.4" y="106.68"/>
 <pinref part="IC2" gate="P" pin="VDD"/>
+<wire x1="27.94" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="106.68" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
@@ -3429,6 +3430,10 @@ part number 2062-2P from STA</description>
 <wire x1="-2.54" y1="20.32" x2="-7.62" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="93.345" x2="-38.1" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="RST2"/>
+<wire x1="25.4" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="78.74" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
+<junction x="27.94" y="106.68"/>
 </segment>
 </net>
 <net name="N$3" class="1">

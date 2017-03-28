@@ -1007,10 +1007,12 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="16"/>
 <contactref element="C5" pad="1"/>
 <contactref element="J1" pad="1"/>
+<contactref element="IC1" pad="10"/>
 <wire x1="60.96" y1="37.7825" x2="65.0875" y2="37.592" width="0" layer="19" extent="1-1"/>
 <wire x1="42.8625" y1="36.322" x2="60.96" y2="37.7825" width="0" layer="19" extent="1-1"/>
 <wire x1="39.37" y1="36.83" x2="42.8625" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="29.21" x2="39.37" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="39.37" y1="26.67" x2="39.37" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="29.21" x2="39.37" y2="26.67" width="0" layer="19" extent="1-1"/>
 <wire x1="21.2725" y1="28.8925" x2="31.75" y2="29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="37.2745" x2="21.2725" y2="28.8925" width="0" layer="19" extent="1-1"/>
 <wire x1="11.43" y1="37.7825" x2="15.24" y2="37.2745" width="0" layer="19" extent="1-1"/>

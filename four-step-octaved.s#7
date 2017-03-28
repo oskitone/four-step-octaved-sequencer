@@ -3257,9 +3257,9 @@ part number 2062-2P from STA</description>
 <attribute name="NAME" x="33.274" y="68.961" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="29.464" y="66.421" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="R4" gate="G$1" x="76.2" y="40.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="74.295" y="44.831" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="78.74" y="45.339" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R4" gate="G$1" x="66.04" y="48.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="61.849" y="46.355" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="61.341" y="50.8" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R5" gate="G$1" x="147.32" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="147.32" y="84.836" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
@@ -3467,9 +3467,8 @@ part number 2062-2P from STA</description>
 <wire x1="66.04" y1="55.88" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="CLK"/>
 <wire x1="66.04" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="55.88" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="55.88" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
 <junction x="66.04" y="55.88"/>
 </segment>
 </net>
@@ -3680,26 +3679,6 @@ part number 2062-2P from STA</description>
 <wire x1="101.6" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="-15.24" y1="63.5" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="ENA"/>
-<wire x1="68.58" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="66.04" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="83.82" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="P" pin="VSS"/>
-<wire x1="66.04" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="78.74" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
-<junction x="60.96" y="78.74"/>
-<wire x1="63.5" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="P1"/>
@@ -3756,15 +3735,12 @@ part number 2062-2P from STA</description>
 <wire x1="114.3" y1="-12.7" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="-12.7" x2="162.56" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="114.3" y="-12.7"/>
-<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="-7.62" x2="162.56" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="27.94" x2="162.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="27.94" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="27.94" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
 <junction x="162.56" y="27.94"/>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="35.56" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="90.805" x2="-53.34" y2="90.805" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="90.805" x2="-53.34" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-12.7" x2="-2.54" y2="-12.7" width="0.1524" layer="91"/>
@@ -3782,13 +3758,29 @@ part number 2062-2P from STA</description>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
 <junction x="38.1" y="58.42"/>
-<wire x1="-5.08" y1="58.42" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="58.42" x2="-15.24" y2="59.055" width="0.1524" layer="91"/>
-<junction x="-5.08" y="58.42"/>
 <wire x1="43.18" y1="58.42" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
 <junction x="43.18" y="58.42"/>
-<wire x1="43.18" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
-<junction x="104.14" y="35.56"/>
+<wire x1="43.18" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="ENA"/>
+<wire x1="66.04" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="66.04" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="83.82" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="P" pin="VSS"/>
+<wire x1="66.04" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="78.74" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+<junction x="60.96" y="78.74"/>
+<wire x1="63.5" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<junction x="60.96" y="58.42"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="43.18" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
+<junction x="66.04" y="35.56"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="-5.08" y1="58.42" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="58.42" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-5.08" y="58.42"/>
 </segment>
 </net>
 </nets>

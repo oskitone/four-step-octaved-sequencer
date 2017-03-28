@@ -759,9 +759,9 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-2.5MM-5MM" value="10uF" x="24.13" y="37.465" smashed="yes" rot="R180">
-<attribute name="NAME" x="27.305" y="39.878" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08440" x="24.13" y="37.465" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-2.5MM-5MM" value="10uF" x="24.13" y="37.465" smashed="yes" rot="MR180">
+<attribute name="NAME" x="20.955" y="39.878" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-08440" x="24.13" y="37.465" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".1uF" x="41.275" y="36.195" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-08370" x="41.275" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
@@ -942,7 +942,7 @@ design rules under a new name.</description>
 <contactref element="R2" pad="P$2"/>
 <contactref element="C1" pad="1"/>
 <wire x1="27.94" y1="33.02" x2="30.48" y2="35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="22.88" y1="37.465" x2="27.94" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="25.38" y1="37.465" x2="27.94" y2="33.02" width="0" layer="19" extent="1-1"/>
 <wire x1="30.48" y1="25.4" x2="27.94" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6" class="1">
@@ -1139,8 +1139,8 @@ design rules under a new name.</description>
 <wire x1="86.36" y1="3.81" x2="77.1525" y2="3.81" width="0" layer="19" extent="1-1"/>
 <wire x1="82.2325" y1="24.13" x2="74.6125" y2="14.605" width="0" layer="19" extent="1-1"/>
 <wire x1="61.595" y1="5.715" x2="74.6125" y2="9.525" width="0" layer="19" extent="1-1"/>
-<wire x1="25.38" y1="37.465" x2="30.48" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="36.068" x2="25.38" y2="37.465" width="0" layer="19" extent="1-1"/>
+<wire x1="22.88" y1="37.465" x2="30.48" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="36.068" x2="22.88" y2="37.465" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="31.75" x2="15.24" y2="36.068" width="0" layer="19" extent="1-1"/>
 <wire x1="11.43" y1="31.75" x2="15.24" y2="31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="21.59" x2="11.43" y2="31.75" width="0" layer="19" extent="1-1"/>
