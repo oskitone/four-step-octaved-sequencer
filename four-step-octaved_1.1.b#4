@@ -151,17 +151,17 @@ Octaved
 Sequencer</text>
 <text x="92.422521875" y="27.899253125" size="0.8128" layer="21" font="vector" ratio="10" rot="R90">tommy.sh</text>
 <text x="17.145" y="37.7825" size="0.8128" layer="23" font="vector">C4</text>
-<text x="44.45" y="36.83" size="0.8128" layer="23" font="vector">C2</text>
+<text x="44.45" y="36.83" size="0.8128" layer="21" font="vector">C2</text>
 <text x="45.4025" y="21.2725" size="0.8128" layer="23" font="vector">C3</text>
-<text x="21.9075" y="25.4" size="0.8128" layer="23" font="vector">RV1</text>
-<text x="85.4075" y="17.4625" size="0.8128" layer="23" font="vector">RV6</text>
-<text x="13.335" y="8.255" size="0.8128" layer="23" font="vector">RV2</text>
-<text x="28.8925" y="8.255" size="0.8128" layer="23" font="vector">RV3</text>
-<text x="60.6425" y="8.255" size="0.8128" layer="23" font="vector">RV5</text>
-<text x="44.7675" y="8.255" size="0.8128" layer="23" font="vector">RV4</text>
-<text x="64.135" y="32.0675" size="0.8128" layer="23" font="vector">C5</text>
-<text x="23.495" y="18.415" size="0.8128" layer="23" font="vector">TEMPO</text>
-<text x="86.6775" y="10.16" size="0.8128" layer="23" font="vector">VOLUME</text>
+<text x="21.9075" y="25.4" size="0.8128" layer="21" font="vector">RV1</text>
+<text x="85.4075" y="17.4625" size="0.8128" layer="21" font="vector">RV6</text>
+<text x="13.335" y="8.255" size="0.8128" layer="21" font="vector">RV2</text>
+<text x="28.8925" y="8.255" size="0.8128" layer="21" font="vector">RV3</text>
+<text x="60.6425" y="8.255" size="0.8128" layer="21" font="vector">RV5</text>
+<text x="44.7675" y="8.255" size="0.8128" layer="21" font="vector">RV4</text>
+<text x="64.135" y="32.0675" size="0.8128" layer="21" font="vector">C5</text>
+<text x="23.495" y="18.415" size="0.8128" layer="21" font="vector">TEMPO</text>
+<text x="86.6775" y="10.16" size="0.8128" layer="21" font="vector">VOLUME</text>
 <text x="92.422521875" y="22.501753125" size="0.8128" layer="21" font="vector" ratio="10" rot="R90">1.1</text>
 </plain>
 <libraries>
@@ -1099,7 +1099,6 @@ design rules under a new name.</description>
 <contactref element="RV5" pad="3"/>
 <contactref element="R8" pad="P$2"/>
 <wire x1="3.81" y1="22.5425" x2="1.74625" y2="20.47875" width="0.254" layer="1"/>
-<wire x1="1.74625" y1="18.415" x2="1.74625" y2="16.35125" width="0" layer="19" extent="1-16"/>
 <wire x1="1.74625" y1="18.25625" x2="1.74625" y2="20.47875" width="0.254" layer="1"/>
 <wire x1="61.595" y1="16.35125" x2="61.674375" y2="16.271875" width="0.254" layer="1"/>
 <wire x1="61.674375" y1="16.271875" x2="63.02375" y2="14.9225" width="0.254" layer="1"/>
@@ -1111,7 +1110,6 @@ design rules under a new name.</description>
 <wire x1="61.595" y1="16.35125" x2="61.43625" y2="16.51" width="0.254" layer="1"/>
 <wire x1="61.43625" y1="16.51" x2="3.4925" y2="16.51" width="0.254" layer="1"/>
 <wire x1="3.4925" y1="16.51" x2="1.74625" y2="18.25625" width="0.254" layer="1"/>
-<wire x1="1.74625" y1="18.25625" x2="1.74625" y2="18.415" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$12" class="1">
 <contactref element="R8" pad="P$1"/>
@@ -1351,10 +1349,9 @@ design rules under a new name.</description>
 <wire x1="46.0375" y1="24.13" x2="47.9425" y2="26.035" width="0.508" layer="16"/>
 <wire x1="42.8625" y1="33.49625" x2="42.8625" y2="33.528" width="0.508" layer="16"/>
 <wire x1="46.0375" y1="24.13" x2="46.0375" y2="24.003" width="0.508" layer="16"/>
-<wire x1="55.5625" y1="24.92375" x2="60.80125" y2="24.92375" width="0.508" layer="16"/>
-<wire x1="55.5625" y1="22.06625" x2="55.5625" y2="24.92375" width="0.508" layer="16"/>
+<wire x1="58.42" y1="24.92375" x2="60.80125" y2="24.92375" width="0.508" layer="16"/>
+<wire x1="54.2925" y1="20.79625" x2="58.42" y2="24.92375" width="0.508" layer="16"/>
 <wire x1="53.49875" y1="20.0025" x2="54.2925" y2="20.79625" width="0.508" layer="16"/>
-<wire x1="54.2925" y1="20.79625" x2="55.5625" y2="22.06625" width="0.508" layer="16"/>
 <wire x1="53.34" y1="20.0025" x2="53.49875" y2="20.0025" width="0.508" layer="16"/>
 <wire x1="60.80125" y1="24.92375" x2="60.96" y2="25.0825" width="0.508" layer="16"/>
 <wire x1="54.45125" y1="6.50875" x2="53.975" y2="6.0325" width="0.508" layer="16"/>
