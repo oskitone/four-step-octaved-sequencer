@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -151,15 +151,15 @@
 <text x="14.9225" y="31.115" size="0.8128" layer="21" font="vector">C4</text>
 <text x="45.085" y="35.56" size="0.8128" layer="21" font="vector">C2</text>
 <text x="45.72" y="20.0025" size="0.8128" layer="21" font="vector">C3</text>
-<text x="82.55" y="37.1475" size="0.8128" layer="21" font="vector">RV1</text>
-<text x="82.8675" y="27.305" size="0.8128" layer="21" font="vector">RV6</text>
+<text x="82.55" y="37.7825" size="0.8128" layer="21" font="vector">RV1</text>
+<text x="82.8675" y="26.67" size="0.8128" layer="21" font="vector">RV6</text>
 <text x="17.145" y="7.9375" size="0.8128" layer="21" font="vector">RV2</text>
 <text x="32.7025" y="7.9375" size="0.8128" layer="21" font="vector">RV3</text>
 <text x="64.4525" y="7.9375" size="0.8128" layer="21" font="vector">RV5</text>
 <text x="48.5775" y="7.9375" size="0.8128" layer="21" font="vector">RV4</text>
 <text x="63.5" y="31.115" size="0.8128" layer="21" font="vector">C5</text>
-<text x="84.7725" y="30.48" size="0.8128" layer="21" font="vector">TEMPO</text>
-<text x="84.455" y="20.955" size="0.8128" layer="21" font="vector">VOLUME</text>
+<text x="84.7725" y="31.115" size="0.8128" layer="21" font="vector">TEMPO</text>
+<text x="84.455" y="20.32" size="0.8128" layer="21" font="vector">VOLUME</text>
 <text x="51.076753125" y="39.974978125" size="0.8128" layer="21" font="vector" ratio="10">1.1.1</text>
 <text x="7.528425" y="40.00258125" size="1.778" layer="1" font="vector" ratio="15" distance="34">Four Step Octaved Sequencer</text>
 <hole x="3.81" y="3.81" drill="3.302"/>
@@ -949,8 +949,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="66.421" y="24.13" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-12182" x="68.2625" y="21.9075" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RV1" library="SparkFun-Retired" package="TRIM_POT" value="50K" x="86.36" y="33.02" smashed="yes" rot="R90">
-<attribute name="PROD_ID" value="COM-00104" x="86.36" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RV1" library="SparkFun-Retired" package="TRIM_POT" value="50K" x="86.36" y="33.655" smashed="yes" rot="R90">
+<attribute name="PROD_ID" value="COM-00104" x="86.36" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="RV2" library="SparkFun-Retired" package="TRIM_POT" value="50K" x="15.24" y="3.175" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="COM-00104" x="15.24" y="3.175" size="1.778" layer="27" rot="R90" display="off"/>
@@ -964,8 +964,8 @@ design rules under a new name.</description>
 <element name="RV5" library="SparkFun-Retired" package="TRIM_POT" value="50K" x="62.865" y="3.175" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="COM-00104" x="62.865" y="3.175" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RV6" library="SparkFun-Retired" package="TRIM_POT" value="1K" x="86.6775" y="23.495" smashed="yes" rot="R90">
-<attribute name="PROD_ID" value="COM-00104" x="86.6775" y="23.495" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RV6" library="SparkFun-Retired" package="TRIM_POT" value="1K" x="86.6775" y="22.86" smashed="yes" rot="R90">
+<attribute name="PROD_ID" value="COM-00104" x="86.6775" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="SparkFun-IC-Amplifiers" package="DIP08" value="LM386N" x="86.6775" y="13.0175" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.9475" y="6.0325" size="0.8128" layer="25" font="vector" align="bottom-center"/>
@@ -988,7 +988,7 @@ design rules under a new name.</description>
 <signal name="N$1" class="1">
 <contactref element="R1" pad="P$2"/>
 <contactref element="RV1" pad="3"/>
-<wire x1="88.9" y1="33.02" x2="29.21" y2="27.6225" width="0" layer="19" extent="1-1"/>
+<wire x1="88.9" y1="33.655" x2="29.21" y2="27.6225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2" class="1">
 <contactref element="IC1" pad="1"/>
@@ -996,8 +996,8 @@ design rules under a new name.</description>
 <contactref element="RV1" pad="1"/>
 <contactref element="R2" pad="P$1"/>
 <wire x1="21.59" y1="30.7975" x2="32.0675" y2="35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="86.36" y1="38.1" x2="21.59" y2="30.7975" width="0" layer="19" extent="1-1"/>
-<wire x1="83.82" y1="33.02" x2="86.36" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="86.36" y1="38.735" x2="21.59" y2="30.7975" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="33.655" x2="86.36" y2="38.735" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+9V" class="2">
 <contactref element="R1" pad="P$1"/>
@@ -1154,7 +1154,7 @@ design rules under a new name.</description>
 <signal name="N$24" class="1">
 <contactref element="RV6" pad="1"/>
 <contactref element="U1" pad="3"/>
-<wire x1="82.8675" y1="11.7475" x2="86.6775" y2="28.575" width="0" layer="19" extent="1-1"/>
+<wire x1="82.8675" y1="11.7475" x2="86.6775" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27" class="1">
 <contactref element="C6" pad="2"/>
@@ -1201,7 +1201,7 @@ design rules under a new name.</description>
 <wire x1="82.8675" y1="14.2875" x2="82.8675" y2="9.2075" width="0" layer="19" extent="1-1"/>
 <wire x1="72.7075" y1="3.4925" x2="82.8675" y2="9.2075" width="0" layer="19" extent="1-1"/>
 <wire x1="80.9625" y1="3.4925" x2="72.7075" y2="3.4925" width="0" layer="19" extent="1-1"/>
-<wire x1="84.1375" y1="23.495" x2="80.9625" y2="3.4925" width="0" layer="19" extent="1-1"/>
+<wire x1="84.1375" y1="22.86" x2="80.9625" y2="3.4925" width="0" layer="19" extent="1-1"/>
 <wire x1="32.0675" y1="20.32" x2="46.355" y2="22.733" width="0" layer="19" extent="1-1"/>
 <wire x1="41.91" y1="5.715" x2="57.785" y2="5.715" width="0" layer="19" extent="1-1"/>
 <wire x1="26.035" y1="5.715" x2="41.91" y2="5.715" width="0" layer="19" extent="1-1"/>
@@ -1251,7 +1251,7 @@ design rules under a new name.</description>
 <wire x1="75.2475" y1="36.83" x2="77.7875" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="72.7075" y1="36.83" x2="75.2475" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="70.1675" y1="36.83" x2="72.7075" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="89.2175" y1="23.495" x2="77.7875" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="89.2175" y1="22.86" x2="77.7875" y2="36.83" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
