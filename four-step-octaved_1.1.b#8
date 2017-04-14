@@ -163,6 +163,9 @@ Sequencer</text>
 <text x="23.495" y="18.415" size="0.8128" layer="21" font="vector">TEMPO</text>
 <text x="86.6775" y="10.16" size="0.8128" layer="21" font="vector">VOLUME</text>
 <text x="92.422521875" y="22.501753125" size="0.8128" layer="21" font="vector" ratio="10" rot="R90">1.1</text>
+<text x="90.48991875" y="22.450925" size="1.778" layer="1" font="vector" ratio="15" distance="34" rot="R90">Four Step
+Octaved
+Sequencer</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">

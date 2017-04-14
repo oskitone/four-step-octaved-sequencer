@@ -151,8 +151,8 @@ Octaved
 Sequencer</text>
 <text x="92.422521875" y="27.899253125" size="0.8128" layer="21" font="vector" ratio="10" rot="R90">tommy.sh</text>
 <text x="17.145" y="37.7825" size="0.8128" layer="23" font="vector">C4</text>
-<text x="44.45" y="36.83" size="0.8128" layer="21" font="vector">C2</text>
-<text x="45.4025" y="21.2725" size="0.8128" layer="23" font="vector">C3</text>
+<text x="44.7675" y="36.83" size="0.8128" layer="21" font="vector">C2</text>
+<text x="45.4025" y="21.2725" size="0.8128" layer="21" font="vector">C3</text>
 <text x="21.9075" y="25.4" size="0.8128" layer="21" font="vector">RV1</text>
 <text x="85.4075" y="17.4625" size="0.8128" layer="21" font="vector">RV6</text>
 <text x="13.335" y="8.255" size="0.8128" layer="21" font="vector">RV2</text>

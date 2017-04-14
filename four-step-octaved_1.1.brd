@@ -166,6 +166,10 @@
 <hole x="90.805" y="3.81" drill="3.302"/>
 <hole x="90.805" y="40.64" drill="3.302"/>
 <hole x="3.81" y="40.64" drill="3.302"/>
+<text x="11.43" y="5.08" size="0.8128" layer="21" font="vector">-</text>
+<text x="27.305" y="5.08" size="0.8128" layer="21" font="vector">-</text>
+<text x="43.18" y="5.08" size="0.8128" layer="21" font="vector">-</text>
+<text x="59.055" y="5.08" size="0.8128" layer="21" font="vector">-</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
