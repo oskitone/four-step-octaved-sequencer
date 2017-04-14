@@ -851,9 +851,9 @@ design rules under a new name.</description>
 <element name="C5" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".1uF" x="63.8175" y="35.2425" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-08370" x="63.8175" y="35.2425" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C6" library="SparkFun-Capacitors" package="CPOL-RADIAL-2.5MM-6.5MM" value="220uF" x="74.93" y="11.7475" smashed="yes">
-<attribute name="NAME" x="72.39" y="15.1765" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08439" x="74.93" y="11.7475" size="1.778" layer="27" display="off"/>
+<element name="C6" library="SparkFun-Capacitors" package="CPOL-RADIAL-2.5MM-6.5MM" value="220uF" x="74.93" y="10.795" smashed="yes">
+<attribute name="NAME" x="72.39" y="14.224" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-08439" x="74.93" y="10.795" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D1" library="SparkFun-DiscreteSemi" package="DIODE-1N4001" value="" x="12.7" y="13.97" smashed="yes">
 <attribute name="NAME" x="20.0025" y="13.589" size="0.8128" layer="25" font="vector" align="bottom-center"/>
@@ -1165,12 +1165,12 @@ design rules under a new name.</description>
 <signal name="N$27" class="1">
 <contactref element="C6" pad="2"/>
 <contactref element="J3" pad="1"/>
-<wire x1="72.0725" y1="3.4925" x2="73.68" y2="11.7475" width="0" layer="19" extent="1-1"/>
+<wire x1="72.0725" y1="3.4925" x2="73.68" y2="10.795" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28" class="1">
 <contactref element="C6" pad="1"/>
 <contactref element="U1" pad="5"/>
-<wire x1="76.18" y1="11.7475" x2="90.4875" y2="9.2075" width="0" layer="19" extent="1-1"/>
+<wire x1="76.18" y1="10.795" x2="90.4875" y2="9.2075" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43" class="1">
 <contactref element="IC3" pad="10"/>
