@@ -3379,7 +3379,7 @@ part number 2062-2P from STA</description>
 <part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value=".1uF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="220uF"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="SPEAKER"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="BATTERY"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="-BATTERY+"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="22K"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="22K"/>
 <part name="SW1" library="special" deviceset="SW_DIP-4" device=""/>

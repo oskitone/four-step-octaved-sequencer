@@ -3534,9 +3534,9 @@ part number 2062-2P from STA</description>
 <attribute name="VALUE" x="17.78" y="-9.906" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="SW1" gate="A" x="38.1" y="15.24"/>
-<instance part="J1" gate="G$1" x="-55.88" y="83.185" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="-59.69" y="76.581" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="-56.515" y="89.027" size="1.778" layer="95" font="vector" rot="MR180"/>
+<instance part="J1" gate="G$1" x="-55.88" y="71.755" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="-59.69" y="65.151" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="-56.515" y="77.597" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -3612,8 +3612,8 @@ part number 2062-2P from STA</description>
 <wire x1="27.94" y1="78.74" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <junction x="27.94" y="106.68"/>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="-48.26" y1="83.185" x2="-40.64" y2="83.185" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="83.185" x2="-40.64" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="71.755" x2="-40.64" y2="71.755" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="71.755" x2="-40.64" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="1">
@@ -4041,8 +4041,8 @@ part number 2062-2P from STA</description>
 <net name="N$32" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="80.645" x2="-40.64" y2="80.645" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="80.645" x2="-40.64" y2="57.785" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="69.215" x2="-40.64" y2="69.215" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="69.215" x2="-40.64" y2="57.785" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="-40.64" y1="57.785" x2="-48.26" y2="57.785" width="0.1524" layer="91"/>
 </segment>

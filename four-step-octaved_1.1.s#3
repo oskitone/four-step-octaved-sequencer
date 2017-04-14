@@ -3351,7 +3351,7 @@ part number 2062-2P from STA</description>
 <part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="680"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="220"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="5.6K"/>
-<part name="RV1" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="50K"/>
+<part name="VR1" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="50K"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="10uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value=".1uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="10nF"/>
@@ -3361,10 +3361,10 @@ part number 2062-2P from STA</description>
 <part name="R7" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="1K"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="1K"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="RV2" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="50K"/>
-<part name="RV3" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="50K"/>
-<part name="RV4" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="50K"/>
-<part name="RV5" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="50K"/>
+<part name="VR2" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="50K"/>
+<part name="VR3" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="50K"/>
+<part name="VR4" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="50K"/>
+<part name="VR5" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="50K"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value=""/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value=""/>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="3MM"/>
@@ -3410,7 +3410,7 @@ part number 2062-2P from STA</description>
 <attribute name="NAME" x="34.671" y="83.82" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="34.544" y="79.375" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="RV1" gate="G$1" x="-25.4" y="86.36" smashed="yes" rot="R180">
+<instance part="VR1" gate="G$1" x="-25.4" y="86.36" smashed="yes" rot="R180">
 <attribute name="NAME" x="-23.495" y="88.265" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-29.21" y="84.455" size="1.778" layer="95" rot="R270"/>
 </instance>
@@ -3450,19 +3450,19 @@ part number 2062-2P from STA</description>
 <attribute name="NAME" x="161.417" y="78.359" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="159.512" y="79.375" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 </instance>
-<instance part="RV2" gate="G$1" x="116.84" y="88.9" smashed="yes" rot="R270">
+<instance part="VR2" gate="G$1" x="116.84" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="114.3" y="90.805" size="1.778" layer="95"/>
 <attribute name="VALUE" x="119.38" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="RV3" gate="G$1" x="116.84" y="73.66" smashed="yes" rot="R270">
+<instance part="VR3" gate="G$1" x="116.84" y="73.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="114.3" y="75.565" size="1.778" layer="95"/>
 <attribute name="VALUE" x="119.38" y="69.85" size="1.778" layer="95"/>
 </instance>
-<instance part="RV4" gate="G$1" x="116.84" y="58.42" smashed="yes" rot="R270">
+<instance part="VR4" gate="G$1" x="116.84" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="114.3" y="60.325" size="1.778" layer="95"/>
 <attribute name="VALUE" x="119.38" y="54.61" size="1.778" layer="95"/>
 </instance>
-<instance part="RV5" gate="G$1" x="116.84" y="43.18" smashed="yes" rot="R270">
+<instance part="VR5" gate="G$1" x="116.84" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="114.3" y="45.085" size="1.778" layer="95"/>
 <attribute name="VALUE" x="118.745" y="39.37" size="1.778" layer="95"/>
 </instance>
@@ -3540,20 +3540,20 @@ part number 2062-2P from STA</description>
 <net name="N$1" class="1">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="RV1" gate="G$1" pin="A"/>
+<pinref part="VR1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$2" class="1">
 <segment>
 <pinref part="IC1" gate="G$1" pin="DIS"/>
-<pinref part="RV1" gate="G$1" pin="E"/>
+<pinref part="VR1" gate="G$1" pin="E"/>
 <wire x1="-2.54" y1="86.36" x2="-15.24" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="86.36" x2="-20.32" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="86.36" x2="-20.32" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="78.74" x2="-25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="78.74" x2="-30.48" y2="78.74" width="0.1524" layer="91"/>
 <junction x="-25.4" y="78.74"/>
-<pinref part="RV1" gate="G$1" pin="S"/>
+<pinref part="VR1" gate="G$1" pin="S"/>
 <wire x1="-30.48" y1="78.74" x2="-30.48" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <junction x="-15.24" y="86.36"/>
@@ -3661,7 +3661,7 @@ part number 2062-2P from STA</description>
 <pinref part="IC2" gate="A" pin="Q2"/>
 <wire x1="93.98" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="83.82" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="RV4" gate="G$1" pin="A"/>
+<pinref part="VR4" gate="G$1" pin="A"/>
 <wire x1="109.22" y1="58.42" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="58.42" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
@@ -3675,7 +3675,7 @@ part number 2062-2P from STA</description>
 <pinref part="IC2" gate="A" pin="Q3"/>
 <wire x1="93.98" y1="81.28" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="81.28" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="RV5" gate="G$1" pin="A"/>
+<pinref part="VR5" gate="G$1" pin="A"/>
 <wire x1="109.22" y1="43.18" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="43.18" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
@@ -3711,7 +3711,7 @@ part number 2062-2P from STA</description>
 <net name="N$7" class="1">
 <segment>
 <pinref part="IC2" gate="A" pin="Q0"/>
-<pinref part="RV2" gate="G$1" pin="A"/>
+<pinref part="VR2" gate="G$1" pin="A"/>
 <wire x1="93.98" y1="88.9" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="88.9" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
@@ -3725,7 +3725,7 @@ part number 2062-2P from STA</description>
 <pinref part="IC2" gate="A" pin="Q1"/>
 <wire x1="93.98" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="86.36" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="RV3" gate="G$1" pin="A"/>
+<pinref part="VR3" gate="G$1" pin="A"/>
 <wire x1="104.14" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="73.66" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
@@ -3736,8 +3736,8 @@ part number 2062-2P from STA</description>
 </net>
 <net name="N$11" class="1">
 <segment>
-<pinref part="RV2" gate="G$1" pin="S"/>
-<pinref part="RV2" gate="G$1" pin="E"/>
+<pinref part="VR2" gate="G$1" pin="S"/>
+<pinref part="VR2" gate="G$1" pin="E"/>
 <wire x1="116.84" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="83.82" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -3747,8 +3747,8 @@ part number 2062-2P from STA</description>
 </net>
 <net name="N$16" class="1">
 <segment>
-<pinref part="RV3" gate="G$1" pin="S"/>
-<pinref part="RV3" gate="G$1" pin="E"/>
+<pinref part="VR3" gate="G$1" pin="S"/>
+<pinref part="VR3" gate="G$1" pin="E"/>
 <wire x1="116.84" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="68.58" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="A"/>
@@ -3758,8 +3758,8 @@ part number 2062-2P from STA</description>
 </net>
 <net name="N$18" class="1">
 <segment>
-<pinref part="RV5" gate="G$1" pin="S"/>
-<pinref part="RV5" gate="G$1" pin="E"/>
+<pinref part="VR5" gate="G$1" pin="S"/>
+<pinref part="VR5" gate="G$1" pin="E"/>
 <wire x1="116.84" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="38.1" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="A"/>
@@ -3769,8 +3769,8 @@ part number 2062-2P from STA</description>
 </net>
 <net name="N$17" class="1">
 <segment>
-<pinref part="RV4" gate="G$1" pin="S"/>
-<pinref part="RV4" gate="G$1" pin="E"/>
+<pinref part="VR4" gate="G$1" pin="S"/>
+<pinref part="VR4" gate="G$1" pin="E"/>
 <wire x1="116.84" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="53.34" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="A"/>

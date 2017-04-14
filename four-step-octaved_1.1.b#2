@@ -905,11 +905,11 @@ design rules under a new name.</description>
 <element name="IC3" library="40xx" package="DIL16" value="4040N" x="55.88" y="27.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.6265" y="16.891" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="1X02" value="-BATTERY+" x="78.4225" y="3.4925" smashed="yes" rot="R180">
-<attribute name="NAME" x="76.2" y="6.223" size="0.8128" layer="25" font="vector" rot="R180"/>
+<element name="J2" library="SparkFun-Connectors" package="1X02" value="-BATTERY+" x="79.6925" y="3.4925" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.47" y="6.223" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="1X02" value="SPEAKER" x="72.0725" y="3.4925" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.85" y="6.223" size="0.8128" layer="25" font="vector" rot="R180"/>
+<element name="J3" library="SparkFun-Connectors" package="1X02" value="SPEAKER" x="73.3425" y="3.4925" smashed="yes" rot="R180">
+<attribute name="NAME" x="71.12" y="6.223" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="680" x="25.4" y="27.6225" smashed="yes">
 <attribute name="NAME" x="29.21" y="25.4635" size="0.8128" layer="25" font="vector" align="bottom-center"/>
@@ -985,9 +985,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="66.802" y="29.2735" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="79.1845" y="39.624" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="1X02" value="" x="84.7725" y="3.4925" smashed="yes" rot="R180">
-<attribute name="NAME" x="82.55" y="6.5405" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="86.0425" y="5.5245" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<element name="J1" library="SparkFun-Connectors" package="1X02" value="" x="86.0425" y="3.4925" smashed="yes" rot="R180">
+<attribute name="NAME" x="83.82" y="6.5405" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="87.3125" y="5.5245" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -1017,7 +1017,7 @@ design rules under a new name.</description>
 <contactref element="C5" pad="1"/>
 <contactref element="IC1" pad="10"/>
 <contactref element="J1" pad="1"/>
-<wire x1="84.7725" y1="3.4925" x2="90.4875" y2="11.7475" width="0" layer="19" extent="1-1"/>
+<wire x1="86.0425" y1="3.4925" x2="90.4875" y2="11.7475" width="0" layer="19" extent="1-1"/>
 <wire x1="63.8175" y1="36.6395" x2="90.4875" y2="11.7475" width="0" layer="19" extent="1-1"/>
 <wire x1="59.69" y1="36.83" x2="63.8175" y2="36.6395" width="0" layer="19" extent="1-1"/>
 <wire x1="43.18" y1="35.052" x2="59.69" y2="36.83" width="0" layer="19" extent="1-1"/>
@@ -1165,7 +1165,7 @@ design rules under a new name.</description>
 <signal name="N$27" class="1">
 <contactref element="C6" pad="2"/>
 <contactref element="J3" pad="1"/>
-<wire x1="72.0725" y1="3.4925" x2="73.68" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="73.3425" y1="3.4925" x2="73.68" y2="10.795" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28" class="1">
 <contactref element="C6" pad="1"/>
@@ -1200,9 +1200,9 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <wire x1="82.8675" y1="14.2875" x2="84.1375" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="82.8675" y1="9.2075" x2="82.8675" y2="14.2875" width="0" layer="19" extent="1-1"/>
-<wire x1="75.8825" y1="3.4925" x2="82.8675" y2="9.2075" width="0" layer="19" extent="1-1"/>
-<wire x1="69.5325" y1="3.4925" x2="75.8825" y2="3.4925" width="0" layer="19" extent="1-1"/>
-<wire x1="57.785" y1="5.715" x2="69.5325" y2="3.4925" width="0" layer="19" extent="1-1"/>
+<wire x1="77.1525" y1="3.4925" x2="82.8675" y2="9.2075" width="0" layer="19" extent="1-1"/>
+<wire x1="70.8025" y1="3.4925" x2="77.1525" y2="3.4925" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="5.715" x2="70.8025" y2="3.4925" width="0" layer="19" extent="1-1"/>
 <wire x1="52.07" y1="19.05" x2="57.785" y2="5.715" width="0" layer="19" extent="1-1"/>
 <wire x1="46.355" y1="22.733" x2="52.07" y2="19.05" width="0" layer="19" extent="1-1"/>
 <wire x1="59.69" y1="24.13" x2="52.07" y2="19.05" width="0" layer="19" extent="1-1"/>
@@ -1262,7 +1262,7 @@ design rules under a new name.</description>
 <signal name="N$32">
 <contactref element="J1" pad="2"/>
 <contactref element="J2" pad="1"/>
-<wire x1="78.4225" y1="3.4925" x2="82.2325" y2="3.4925" width="0" layer="19" extent="1-1"/>
+<wire x1="79.6925" y1="3.4925" x2="83.5025" y2="3.4925" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
