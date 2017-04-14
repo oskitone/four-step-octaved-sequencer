@@ -3379,7 +3379,7 @@ part number 2062-2P from STA</description>
 <part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value=".1uF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="220uF"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="SPEAKER"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="BATTERY"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="-BATTERY+"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="22K"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="22K"/>
 <part name="SW1" library="special" deviceset="SW_DIP-4" device=""/>
@@ -3576,9 +3576,10 @@ part number 2062-2P from STA</description>
 <wire x1="25.4" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="88.9" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 <junction x="25.4" y="88.9"/>
-<wire x1="25.4" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <junction x="25.4" y="106.68"/>
 <pinref part="IC2" gate="P" pin="VDD"/>
+<wire x1="27.94" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="106.68" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
@@ -3603,6 +3604,10 @@ part number 2062-2P from STA</description>
 <wire x1="-38.1" y1="93.98" x2="-43.18" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="93.98" x2="-43.18" y2="93.345" width="0.1524" layer="91"/>
 <junction x="-38.1" y="93.98"/>
+<pinref part="IC1" gate="G$1" pin="RST2"/>
+<wire x1="25.4" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="78.74" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
+<junction x="27.94" y="106.68"/>
 </segment>
 </net>
 <net name="N$3" class="1">
