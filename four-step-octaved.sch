@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -3224,15 +3225,15 @@ part number 2062-2P from STA</description>
 <part name="D7" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value=""/>
 <part name="D8" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value=".1uF"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="22K"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="22K"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
 <part name="RV6" library="SparkFun-Retired" deviceset="POT" device="TRIM" value="1K"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value=".1uF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="220uF"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="- SPK +"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="- 9V +"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="22K"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="22K"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
 <part name="SW1" library="special" deviceset="SW_DIP-4" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="ON/OFF"/>
 </parts>
@@ -3241,15 +3242,28 @@ part number 2062-2P from STA</description>
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="10.16" y="81.28"/>
-<instance part="IC2" gate="A" x="81.28" y="76.2"/>
-<instance part="IC3" gate="A" x="-10.16" y="15.24"/>
+<instance part="IC1" gate="G$1" x="10.16" y="81.28" smashed="yes">
+<attribute name="NAME" x="3.81" y="92.202" size="1.778" layer="94"/>
+<attribute name="VALUE" x="3.048" y="66.04" size="1.778" layer="94"/>
+</instance>
+<instance part="IC2" gate="A" x="81.28" y="76.2" smashed="yes">
+<attribute name="NAME" x="73.66" y="92.075" size="1.778" layer="95"/>
+<attribute name="VALUE" x="73.66" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="A" x="-10.16" y="15.24" smashed="yes">
+<attribute name="NAME" x="-17.78" y="31.115" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-17.78" y="-5.08" size="1.778" layer="96"/>
+</instance>
 <instance part="IC4" gate="G1" x="93.345" y="17.78" smashed="yes">
 <attribute name="NAME" x="86.995" y="24.257" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="95.885" y="24.13" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="-25.4" y="109.22"/>
-<instance part="GND1" gate="1" x="167.64" y="-10.16"/>
+<instance part="SUPPLY1" gate="G$1" x="-25.4" y="109.22" smashed="yes">
+<attribute name="VALUE" x="-27.305" y="112.395" size="1.778" layer="96"/>
+</instance>
+<instance part="GND1" gate="1" x="167.64" y="-10.16" smashed="yes">
+<attribute name="VALUE" x="165.1" y="-12.7" size="1.778" layer="96"/>
+</instance>
 <instance part="R1" gate="G$1" x="-25.4" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="-23.241" y="99.06" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-27.559" y="99.06" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
@@ -3349,7 +3363,10 @@ part number 2062-2P from STA</description>
 <instance part="IC2" gate="P" x="60.96" y="86.36" smashed="yes">
 <attribute name="NAME" x="59.69" y="85.725" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="C4" gate="G$1" x="66.04" y="86.36"/>
+<instance part="C4" gate="G$1" x="66.04" y="86.36" smashed="yes">
+<attribute name="NAME" x="67.564" y="89.281" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="67.564" y="84.201" size="1.778" layer="96" font="vector"/>
+</instance>
 <instance part="R9" gate="G$1" x="17.78" y="30.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.78" y="34.671" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="17.78" y="26.924" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
@@ -3362,8 +3379,13 @@ part number 2062-2P from STA</description>
 <attribute name="NAME" x="63.5" y="20.32" size="1.778" layer="95"/>
 <attribute name="VALUE" x="64.135" y="12.065" size="1.778" layer="95"/>
 </instance>
-<instance part="IC3" gate="P" x="-25.4" y="12.7"/>
-<instance part="C5" gate="G$1" x="-30.48" y="12.7" rot="MR0"/>
+<instance part="IC3" gate="P" x="-25.4" y="12.7" smashed="yes">
+<attribute name="NAME" x="-26.67" y="12.065" size="1.778" layer="95"/>
+</instance>
+<instance part="C5" gate="G$1" x="-30.48" y="12.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-32.004" y="15.621" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="-32.004" y="10.541" size="1.778" layer="96" font="vector" rot="MR0"/>
+</instance>
 <instance part="C6" gate="G$1" x="113.665" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="111.76" y="20.701" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="118.491" y="13.716" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -3384,7 +3406,10 @@ part number 2062-2P from STA</description>
 <attribute name="NAME" x="17.78" y="-2.159" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="17.78" y="-9.906" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="SW1" gate="A" x="47.625" y="15.24"/>
+<instance part="SW1" gate="A" x="47.625" y="15.24" smashed="yes">
+<attribute name="NAME" x="42.545" y="20.955" size="1.778" layer="95"/>
+<attribute name="VALUE" x="42.545" y="5.08" size="1.778" layer="96"/>
+</instance>
 <instance part="J1" gate="G$1" x="-55.88" y="73.66" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="-59.69" y="67.056" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="-56.515" y="79.502" size="1.778" layer="95" font="vector" rot="MR180"/>
