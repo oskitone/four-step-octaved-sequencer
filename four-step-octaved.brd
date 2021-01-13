@@ -902,7 +902,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="7.239" y="27.3685" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="11.8745" y="16.8275" size="0.8128" layer="21" font="vector"/>
 </element>
-<element name="IC3" library="40xx" package="DIL16" value="4040N" x="55.88" y="27.94" smashed="yes" rot="R270">
+<element name="IC3" library="40xx" package="DIL16" value="CD4040 / MC14040" x="55.88" y="27.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.864" y="27.3685" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="59.4995" y="17.145" size="0.8128" layer="21" font="vector"/>
 </element>

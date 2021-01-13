@@ -3196,7 +3196,7 @@ part number 2062-2P from STA</description>
 <parts>
 <part name="IC1" library="SparkFun-IC-Special-Function" deviceset="556" device="" value="556"/>
 <part name="IC2" library="40xx" deviceset="4017" device="N"/>
-<part name="IC3" library="40xx" deviceset="4040" device="N"/>
+<part name="IC3" library="40xx" deviceset="4040" device="N" value="CD4040 / MC14040"/>
 <part name="IC4" library="SparkFun-IC-Amplifiers" deviceset="LM386" device="" value="LM386"/>
 <part name="SUPPLY1" library="supply2" deviceset="+9V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
