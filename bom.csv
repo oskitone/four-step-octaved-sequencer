@@ -32,10 +32,10 @@
 "R10";"10k";"1KOHM-HORIZ-1/4W-1%";"AXIAL-0.3";"1kΩ resistor";"RES-12182";"1k";
 "R11";"10k";"1KOHM-HORIZ-1/4W-1%";"AXIAL-0.3";"1kΩ resistor";"RES-12182";"1k";
 "R12";"10k";"1KOHM-HORIZ-1/4W-1%";"AXIAL-0.3";"1kΩ resistor";"RES-12182";"1k";
-"RV6";"1K";"POTTRIM";"TRIM_POT";"";"COM-00104";"";
 "SW1";"";"SW_DIP-4";"EDG-04";"DIP SWITCH";"";"";
 "VR1";"50K";"POTTRIM";"TRIM_POT";"";"COM-00104";"";
 "VR2";"50K";"POTTRIM";"TRIM_POT";"";"COM-00104";"";
 "VR3";"50K";"POTTRIM";"TRIM_POT";"";"COM-00104";"";
 "VR4";"50K";"POTTRIM";"TRIM_POT";"";"COM-00104";"";
 "VR5";"50K";"POTTRIM";"TRIM_POT";"";"COM-00104";"";
+"VR6";"1K";"POTTRIM";"TRIM_POT";"";"COM-00104";"";

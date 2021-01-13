@@ -967,7 +967,7 @@ design rules under a new name.</description>
 <element name="VR5" library="SparkFun-Retired" package="TRIM_POT" value="50K" x="62.865" y="3.175" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="COM-00104" x="62.865" y="3.175" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RV6" library="SparkFun-Retired" package="TRIM_POT" value="1K" x="86.6775" y="22.86" smashed="yes" rot="R90">
+<element name="VR6" library="SparkFun-Retired" package="TRIM_POT" value="1K" x="86.6775" y="22.86" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="COM-00104" x="86.6775" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="IC4" library="SparkFun-IC-Amplifiers" package="DIP08" value="LM386" x="86.6775" y="13.0175" smashed="yes" rot="R270">
@@ -1354,7 +1354,7 @@ design rules under a new name.</description>
 <wire x1="76.5175" y1="16.51" x2="58.1025" y2="16.51" width="0.254" layer="1"/>
 </signal>
 <signal name="N$24" class="1">
-<contactref element="RV6" pad="1"/>
+<contactref element="VR6" pad="1"/>
 <contactref element="IC4" pad="3"/>
 <wire x1="82.8675" y1="12.2301" x2="82.8675" y2="11.7475" width="0.254" layer="1"/>
 <wire x1="86.6394" y1="16.002" x2="82.8675" y2="12.2301" width="0.254" layer="1"/>
@@ -1389,7 +1389,7 @@ design rules under a new name.</description>
 <contactref element="C5" pad="2"/>
 <contactref element="IC3" pad="8"/>
 <contactref element="IC3" pad="11"/>
-<contactref element="RV6" pad="2"/>
+<contactref element="VR6" pad="2"/>
 <contactref element="IC4" pad="2"/>
 <contactref element="IC4" pad="4"/>
 <contactref element="J3" pad="2"/>
@@ -1527,7 +1527,7 @@ design rules under a new name.</description>
 <contactref element="SW1" pad="1"/>
 <contactref element="SW1" pad="2"/>
 <contactref element="SW1" pad="3"/>
-<contactref element="RV6" pad="3"/>
+<contactref element="VR6" pad="3"/>
 <wire x1="72.009" y1="36.8046" x2="69.6087" y2="36.8046" width="0.254" layer="1"/>
 <wire x1="69.6087" y1="36.8046" x2="69.5325" y2="36.83" width="0.254" layer="1"/>
 <wire x1="72.009" y1="36.8046" x2="72.0725" y2="36.83" width="0.254" layer="1"/>
