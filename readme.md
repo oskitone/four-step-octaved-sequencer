@@ -2,9 +2,9 @@
 
 As featured in the blog post ["Prototype Post-Mortem: Four-Step Octaved Sequencer"](https://blog.tommy.sh/posts/prototype-post-mortem-four-step-octaved-sequencer/), these are the prototype PCB designs for a (yet to be totally finished) fun little noise toy.
 
-The PCB and its electronics are possibly available as a [DIY electronics kit](https://www.oskitone.com/product/four-step-octaved-sequencer-kit). There are 47 components to solder, and it takes about an hour to assemble; it's recommended for those with intermediate soldering experience.
+[![Four-Step Octaved Sequencer PCB assembled](four_step-assembled-16x9-1200.jpg)](four_step-assembled.jpg)
 
-This repo serves as the assembly guide for the kit, as well as the EAGLE project so you can make your own from scratch, should you want to!
+The PCB and its electronics are possibly available as a [DIY electronics kit](https://www.oskitone.com/product/four-step-octaved-sequencer-kit). This repo serves as the assembly guide for the kit, as well as the EAGLE project so you can fabricate your own from scratch, should you want to!
 
 ## Assembly guide
 
