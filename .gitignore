@@ -53,3 +53,5 @@ eagle.epf
 *.gto
 *.gtp
 *.gts
+
+local/
