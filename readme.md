@@ -48,10 +48,10 @@ The PCB and its electronics are possibly available as a [DIY electronics kit](ht
 | R6   | 1K      | Resistor                                          | Brown Black Red    | For step 2 LED                                  |
 | R7   | 1K      | Resistor                                          | Brown Black Red    | For step 3 LED                                  |
 | R8   | 1K      | Resistor                                          | Brown Black Red    | For step 4 LED                                  |
-| R9   | 10k     | Resistor                                          | Brown Black Orange | Mixer for octave 1                                |
-| R10  | 10k     | Resistor                                          | Brown Black Orange | Mixer for octave 2                                |
-| R11  | 10k     | Resistor                                          | Brown Black Orange | Mixer for octave 3                                |
-| R12  | 10k     | Resistor                                          | Brown Black Orange | Mixer for octave 4                                |
+| R9   | 10k     | Resistor                                          | Brown Black Orange | Mixer for octave 1                              |
+| R10  | 10k     | Resistor                                          | Brown Black Orange | Mixer for octave 2                              |
+| R11  | 10k     | Resistor                                          | Brown Black Orange | Mixer for octave 3                              |
+| R12  | 10k     | Resistor                                          | Brown Black Orange | Mixer for octave 4                              |
 | SW1  |         | 4 position SPST DIP Switch                        |                    | Octave mutes                                    |
 | VR1  | 50K     | Variable resistor                                 | 503                | Tempo                                           |
 | VR2  | 50K     | Variable resistor                                 | 503                | Step 1 pitch                                    |
