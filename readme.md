@@ -6,7 +6,8 @@ As featured in the blog post ["Prototype Post-Mortem: Four-Step Octaved Sequence
 
 The PCB and its electronics are possibly available as a [DIY electronics kit](https://www.oskitone.com/product/four-step-octaved-sequencer-kit). This repo serves as the assembly guide for the kit, as well as the EAGLE project so you can fabricate your own from scratch, should you want to!
 
-**Demo video:** [https://vimeo.com/501110534](https://vimeo.com/501110534)
+**Demo video:** [https://vimeo.com/501110534](https://vimeo.com/501110534)  
+**Order a PCB from OSH Park:** [https://oshpark.com/shared_projects/xo5nRkSm](https://oshpark.com/shared_projects/xo5nRkSm)
 
 ## Assembly guide
 
